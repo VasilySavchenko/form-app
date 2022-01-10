@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(0, 0, 0);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul a {
+  padding: 20px;
+  font-size: 20px;
+}
+
+header nav ul a.header-link:active,
+header nav ul a.header-link:hover,
+header nav ul a.header-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.add-button {
+  background-color: black;
+  border: 1px solid black;
+}
+.add-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+}
+
+.delete-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+}
+.title-contact {
+  text-transform: uppercase;
+}
